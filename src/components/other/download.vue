@@ -11,7 +11,7 @@
 	<script>
 		
 	</script>
-	<style type="text/css">
+	<style scoped="scoped">
 		.bigpic{
 			width: 100%;
 			height: auto;

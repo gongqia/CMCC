@@ -62,7 +62,7 @@
 			<router-link to='/search' class='search-to'>
 				<input type="text" class='search02' value="搜索"/>
 			</router-link>
-			<router-link to='/' class='to-login'>未登录</router-link><!--要改-->
+			<router-link to='/login' class='to-login'>未登录</router-link><!--要改-->
 		</section>
 		<!--公告-->
 		<div class="welcome">欢迎来到中国移动掌上营业厅
@@ -408,6 +408,7 @@
 		}
 		.quick-menu ul{
 			width: 100%;
+			overflow: hidden;
 			padding-bottom: 19.92px;
 		}
 		.quick-menu ul li{
@@ -461,7 +462,7 @@
 		}
 		.recommend ul{
 			width: 100%;
-			background: #fff;
+			overflow: hidden;
 		}
 		.recommend ul li{
 			width: 50%;
@@ -494,6 +495,7 @@
 		.business ul{
 			width: 100%;
 			background: #fff;
+			overflow: hidden;
 		}
 		.business ul li{
 			width: 50%;

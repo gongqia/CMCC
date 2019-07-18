@@ -457,6 +457,7 @@
 			float: left;
 			overflow: hidden;
 			background: #f2f2f2;
+			padding-bottom: 13%;
 		}
 		.bottom{
 			width: 100%;

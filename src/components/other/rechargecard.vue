@@ -132,6 +132,9 @@
 		.mint-toast{
 			background-color: rgba(0,0,0,0.3);
 		}
+		ul,ul li{
+			background-color: #fff;
+		}
 		input:focus::placeholder {
 			color: transparent;
 		}
@@ -455,6 +458,7 @@
 			border-top: 1px solid #ccc;
 			padding: 15px 0;
 			margin-top: 8px;
+			padding-bottom: 13%;
 		}
 		.client a{
 			display: inline-block;

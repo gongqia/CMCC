@@ -24,7 +24,7 @@
 			<router-link to='/search' class='search-to'>
 				<input type="text" class='search02' value="搜索"/>
 			</router-link>
-			<router-link to='/' class='to-login'>未登录</router-link>
+			<router-link to='/login' class='to-login'>未登录</router-link>
 		</section>
 		<!--真正的头-->
 		<header>
@@ -67,7 +67,7 @@
 		
 		<!--公告-->
 		<div class="welcome">欢迎来到中国移动商城
-			<router-link to='/index'>去登录 ></router-link>
+			<router-link to='/login'>去登录 ></router-link>
 		</div>
 		<section class="announcement" v-show='annunce'>
 			<img src="../../assets/images/icon-notice.png"/>
@@ -251,10 +251,9 @@
 				}
 			},
 			mounted(){
-				var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop || 0;
-				document.documentElement.scrollTop=0
-				window.pageYOffset=0
-				document.body.scrollTop=0
+				document.documentElement.scrollTop=0;
+				window.pageYOffset=0;
+				document.body.scrollTop=0;
 				let inow = 0;
 				this.it = setInterval(()=>{
 					inow=inow+0.18;
@@ -290,7 +289,9 @@
 						if(scrollTop>400){
 							top.style.display = 'block';
 							top.onclick=function(){
-								document.documentElement.scrollTop=0
+								document.documentElement.scrollTop=0;
+								window.pageYOffset=0;
+								document.body.scrollTop=0;
 							}
 						}else{
 							top.style.display = 'none'
@@ -445,6 +446,7 @@
 		nav{
 			width: 100%;
 			padding: 2% 1%;
+			background-color: #fff;
 		}
 		nav ul{
 			overflow: hidden;

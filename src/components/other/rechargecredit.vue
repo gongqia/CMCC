@@ -198,7 +198,9 @@
 					this.show2=false
 				},
 				top(){
-					document.documentElement.scrollTop=0
+					document.documentElement.scrollTop=0;
+					window.pageYOffset=0;
+					document.body.scrollTop=0;
 				}
 			},
 			mounted(){
@@ -338,6 +340,9 @@
 			width: 100%;
 			overflow: hidden;
 		} 
+		ul{
+			background-color: #fff;
+		}
 		.choose li{
 			width: 50%;
 			font-size: 16px;

@@ -7,24 +7,14 @@
 <script>
 export default {
   name: 'app',
-//provide(){
-//	return{
-//		reload:this.reload
-//	}
-//},
-//data () {
-//  return {
-//    isRouterAlive:true
-//  }
-//},
-//methods:{
-//	reload(){
-//		this.isRouterAlive = false;
-//		this.$nextTick(function(){
-//			this.isRouterAlive = true
-//		})
-//	}
-//}
+	data () {
+	    return {
+	      
+	    }
+	},
+	methods:{
+		
+	}
 }
 </script>
 
@@ -46,6 +36,7 @@ export default {
 body{
 	max-width: 750px;
 	margin: 0 auto;
+	background-color: #fff;
 }
 h1, h2 {
   font-weight: normal;
@@ -60,7 +51,9 @@ li {
   display: inline-block;
   /*margin: 0 10px;*/
 }
-
+section{
+	background-color: #fff;
+}
 a {
   color: #42b983;
 }
