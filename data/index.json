@@ -1,0 +1,91 @@
+{
+	"ad1":[{
+			"to":"/index",
+			"src":"./data/images/ad1.jpg"
+		}],
+	"ad2":[{
+			"to":"/index",
+			"src":"./data/images/ad2.jpg"
+		}],
+	"list01":[{
+			"img":"./data/images/product1.jpg",
+			"price":"3,140 元",
+			"pro":"华为P20"
+		},
+		{
+			"img":"./data/images/product2.jpg",
+			"price":"2,299 元",
+			"pro":"中国移动N Pro"
+		},
+		{
+			"img":"./data/images/product3.jpg",
+			"price":"3,459 元",
+			"pro":"小米MIX"
+		},
+		{
+			"img":"./data/images/product4.jpg",
+			"price":"3,140 元",
+			"pro":"华为P20"
+		}],
+	"list02":[{
+			"name":"国际/港澳台",
+			"des":"畅游各地不断网",
+			"img":"./data/images/special1.png"
+		},
+		{
+			"name":"活动专区",
+			"des":"用户福利全在这里",
+			"img":"./data/images/special2.png"
+		},
+		{
+			"name":"宽带专区",
+			"des":"百兆宽带优惠享",
+			"img":"./data/images/special3.png"
+		},
+		{
+			"name":"手机病毒预警",
+			"des":"保护个人信息安全",
+			"img":"./data/images/special4.png"
+		},
+		{
+			"name":"流量免费集中营",
+			"des":"省流量、赚流量",
+			"img":"./data/images/special5.png"
+		},
+		{
+			"name":"移动俱乐部",
+			"des":"贴心服务精彩无限",
+			"img":"./data/images/special6.png"
+		}],
+		
+	"list03":[{
+			"src":"./data/images/guess1.jpg",
+			"name":"荣耀8X 6GB+128GB 公开版4G智能手机",
+			"des":""
+		},
+		{
+			"src":"./data/images/guess2.jpg",
+			"name":"荣耀10青春版 64GB/128GB 公开版4G智能手机",
+			"des":""
+		},
+		{
+			"src":"./data/images/guess3.jpg",
+			"name":"【熠天海纳】诺基亚8110 双卡双待 老人机备用机",
+			"des":""
+		},
+		{
+			"src":"./data/images/guess4.jpg",
+			"name":"【泰龙吉】小米MIX3 8GB+128GB 公开版4G智能手机",
+			"des":""
+		},
+		{
+			"src":"./data/images/guess5.png",
+			"name":"和目家庭版",
+			"des":""
+		},
+		{
+			"src":"./data/images/guess6.jpg",
+			"name":"荣耀畅玩8A 3GB+64GB 4G智能手机",
+			"des":"咨询客服送好礼 合约购机最高可返3528元话费"
+		}]
+}

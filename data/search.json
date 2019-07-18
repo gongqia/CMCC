@@ -1,0 +1,45 @@
+{
+	"arr1":["5G看移动","套餐","流量加油包","宽带","彩铃","充值交费"],
+	"arr2":[{
+		"src":"./data/images/goods1.jpg",
+		"pro":"荣耀8X 6GB+128GB 公开版4G智能手机",
+		"price":"1699.00",
+		"des":""
+	},
+	{
+		"src":"./data/images/goods2.jpg",
+		"pro":"荣耀10青春版 64GB/128GB 公开版4G智能手机",
+		"price":"1699.00",
+		"des":""
+	},
+	{
+		"src":"./data/images/goods3.jpg",
+		"pro":"【熠天海纳】诺基亚8110 双卡双待 老人机备用机",
+		"price":"499.00",
+		"des":""
+	},
+	{
+		"src":"./data/images/goods4.jpg",
+		"pro":"【泰龙吉】小米MIX3 8GB+128GB 公开版4G智能手机",
+		"price":"3459.00",
+		"des":""
+	},
+	{
+		"src":"./data/images/goods5.jpg",
+		"pro":"荣耀畅玩8A 3GB+64GB 4G智能手机",
+		"price":"799.00",
+		"des":"咨询客服送好礼 合约购机最高可返3528元话费"
+	},
+	{
+		"src":"./data/images/goods6.jpg",
+		"pro":"地铁流量包",
+		"price":"20.00-50.00",
+		"des":""
+	},
+	{
+		"src":"./data/images/goods7.jpg",
+		"pro":"华为荣耀V20 8G+128G  4G智能手机",
+		"price":"2699.00",
+		"des":"麒麟980芯片，魅眼全视屏，4800万AI超清摄影，合约购机部分省份最高可享7056元话费返还"
+	}]
+}
