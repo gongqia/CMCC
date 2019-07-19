@@ -343,6 +343,7 @@
 			background-repeat-y: no-repeat;
 			background-position: left top;
 			background-size: auto 100%;
+			background-color: rgba(0,0,0,0);
 		}
 		.fixed-head .logo{
 			width: 28.13vw;

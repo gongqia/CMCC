@@ -274,7 +274,7 @@
 		}
 		.welcome a{
 			padding-left: 5px;
-			font-size: 10px;
+			font-size: 12px;
 			color: #0085d0;
 		}
 		/*底部导航*/
