@@ -215,7 +215,7 @@
 		<!--固定的购物车和回到顶部-->
 		<div class="fixed">
 			<router-link to='/car'></router-link>
-			<span class="top"></span>
+			<span class="top" @click='totop()'></span>
 		</div>
 	</main>
 	</template>
@@ -248,6 +248,12 @@
 				},
 				annunceClose(){
 					this.annunce=!this.annunce
+				},
+				totop(){
+//					console.log('click')
+					document.documentElement.scrollTop=0;
+					window.pageYOffset=0;
+					document.body.scrollTop=0;
 				}
 			},
 			mounted(){
@@ -288,11 +294,6 @@
 						}
 						if(scrollTop>400){
 							top.style.display = 'block';
-							top.onclick=function(){
-								document.documentElement.scrollTop=0;
-								window.pageYOffset=0;
-								document.body.scrollTop=0;
-							}
 						}else{
 							top.style.display = 'none'
 						}
