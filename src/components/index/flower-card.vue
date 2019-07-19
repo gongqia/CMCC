@@ -23,8 +23,8 @@
 			mounted(){
 				document.onscroll=null
 				document.documentElement.scrollTop=window.pageYOffse=document.body.scrollTop=0
-				var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop || 0;
 				document.onscroll = function(){
+					var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop || 0;
 					if(scrollTop>0){
 						next.style.display='none';
 						img1.style.display='none';

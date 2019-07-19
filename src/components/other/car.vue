@@ -56,14 +56,15 @@
                }
 			},
 			mounted(){
-				document.documentElement.scrollTop=0
+				document.documentElement.scrollTop=window.pageYOffse=document.body.scrollTop=0
 				document.onscroll = function(){
-						let head = document.getElementsByClassName('fixed-head')[0]
-						if(document.documentElement.scrollTop>0){
-							head.style.display = 'block';
-						}else{
-							head.style.display = 'none';
-						}
+					var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop || 0;
+					let head = document.getElementsByClassName('fixed-head')[0]
+					if(scrollTop>0){
+						head.style.display = 'block';
+					}else{
+						head.style.display = 'none';
+					}
 						
 				}
 			},
